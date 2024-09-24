@@ -1,5 +1,5 @@
 import React, {  useState } from 'react';
-import ModalBox from './Modal.tsx'; // Make sure the path is correct
+import ModalBox from './Modal.tsx'; 
 import { Link } from 'react-router-dom';
 import { Typewriter } from 'react-simple-typewriter';
 

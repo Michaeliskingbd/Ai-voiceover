@@ -1,7 +1,7 @@
 import React from 'react'
 import Home from './pages/Home.tsx'
 import { Route, Routes } from 'react-router-dom'
-import Error from './pages/NotFound'
+import Error from './pages/NotFound.tsx'
 
 const App = () => {
   return (
