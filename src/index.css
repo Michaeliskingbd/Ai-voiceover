@@ -1,0 +1,58 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: montserrat;
+    background-color: #07072C;
+   
+  
+}
+
+.ant-modal .ant-modal-content {
+    background-color: #1E1D3F !important;
+    border-radius: 17px;
+    padding: 12px;
+   
+}
+
+
+:where(.css-dev-only-do-not-override-1gwfwyx) .ant-select-outlined:not(.ant-select-customize-input) .ant-select-selector {
+  /* Apply your own styles */
+    background: #07072C !important; 
+    color: rgb(218, 218, 218);
+    border-color: rgb(84, 83, 83);
+    border-radius: 12px;
+    font-size: small;
+}
+.ant-select .ant-select-arrow {
+    color: rgb(218, 218, 218);
+}
+
+.ant-modal .ant-modal-close {
+    display: none;
+}
+
+:where(.css-dev-only-do-not-override-1gwfwyx).ant-input-affix-wrapper {
+    color: aliceblue;
+    background-color: #07072C !important;
+  
+}
+
+:where(.css-dev-only-do-not-override-1gwfwyx).ant-input-affix-wrapper:hover {
+    background-color: #000000 !important;
+    border-color: #000000 !important;
+ 
+}
+:where(.css-dev-only-do-not-override-1gwfwyx).ant-input-affix-wrapper:focus {
+    background-color: #000000 !important;
+}
+:where(.css-dev-only-do-not-override-1gwfwyx).ant-input-affix-wrapper:active {
+    background-color: #000000 !important;
+}
+
+.ant-input,
+.ant-input:hover,
+.ant-input:focus {
+  background-color: #07072C  !important; /* Set the background color to white */
+}
