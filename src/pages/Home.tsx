@@ -1,10 +1,10 @@
 import React from 'react'
-import Main from '../components/main.tsx'
+import Main from '../components/main'
 
 const Home = () => {
   return (
     <div>
-        <Main />
+        <Main/>
     </div>
   )
 }
