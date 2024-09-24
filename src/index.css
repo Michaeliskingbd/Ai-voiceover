@@ -25,6 +25,9 @@ body {
     border-radius: 12px;
     font-size: small;
 }
+.ant-select-selector {
+    background: #07072C !important;
+}
 .ant-select .ant-select-arrow {
     color: rgb(218, 218, 218);
 }
